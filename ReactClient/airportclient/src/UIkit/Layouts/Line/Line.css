@@ -1,0 +1,53 @@
+.Line{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 100%;
+
+}
+
+.Line.Saparate{
+    justify-content: space-between;
+    gap: 0px;
+}
+
+
+
+.Line.Saparate.Main>:nth-child(1){
+    background-color: rgb(50, 50, 50);
+    width: fit-content;
+    height: 100%;
+}
+
+.Line.Saparate.Main>:nth-child(2){
+    background-color: rgb(244, 244, 244);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    height:-webkit-fill-available;
+}
+
+.Line.Rows{
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+.Line.Rows.NavMenu{
+    padding-left: 0.5rem;
+    font-size:x-large;
+}
+
+.Line.RowsScroll{
+    flex-direction: column;
+    align-items: stretch;
+    width: fit-content;
+    overflow-y: scroll;
+    height: inherit; 
+    gap: 0px;
+}
+.Line.RowsScroll::-webkit-scrollbar{
+    display: none;
+}

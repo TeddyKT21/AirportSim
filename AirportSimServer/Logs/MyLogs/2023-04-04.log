@@ -1,0 +1,6 @@
+2023-04-04 14:42:08.6793|0|INFO|AirportSimServer.Controllers.ActivityController|Leg Status Requested ! 
+2023-04-04 14:42:12.1007|0|INFO|AirportSimServer.Controllers.FlightsController|Server got a request for flights at Tuesday, April 4, 2023 2:42:12 PM 
+2023-04-04 14:44:15.2023|0|INFO|AirportSimServer.Controllers.FlightsController|Server got a request for flights at Tuesday, April 4, 2023 2:44:15 PM 
+2023-04-04 14:44:44.6062|0|INFO|AirportSimServer.Controllers.FlightsController|Server got a request for flights at Tuesday, April 4, 2023 2:44:44 PM 
+2023-04-04 14:56:23.4951|0|INFO|AirportSimServer.Controllers.ActivityController|Leg Status Requested ! 
+2023-04-04 14:56:24.8618|0|INFO|AirportSimServer.Controllers.FlightsController|Server got a request for flights at Tuesday, April 4, 2023 2:56:24 PM 

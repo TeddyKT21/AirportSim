@@ -1,0 +1,38 @@
+
+body,
+#root,
+html,
+.ContentWindow,
+.App{
+    height: 100%;
+}
+
+
+a.active,
+a.active:hover {
+    color: rgb(108, 168, 192);
+}
+a:hover
+{
+    color: rgb(177, 222, 255);
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 800px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 12px;
+    }
+  }
+
+
+
+
+

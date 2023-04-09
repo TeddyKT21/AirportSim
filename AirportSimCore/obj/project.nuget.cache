@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qXoxM0U+CfjrOxL96jQtA+DGHxTtpdGRePwnWQsIurwdD+HCJw1DInE5Ax5SBc/+kOxHfW2GELOvAYaL5KpQ3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Desktop\\studies\\dev cource 1081\\final project\\AirportSimulator\\AirportSimCore\\AirportSimCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

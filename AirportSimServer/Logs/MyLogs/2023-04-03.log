@@ -1,0 +1,425 @@
+2023-04-03 16:11:42.6223|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 256752 made first contact with the Airport at 4/3/2023 4:11:38 PM 
+2023-04-03 16:11:42.9098|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 256752 sucssesfully registered at the airport at 4/3/2023 4:11:42 PM 
+2023-04-03 16:11:42.9098|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 256752 entered leg 1 at 4/3/2023 4:11:42 PM 
+2023-04-03 16:11:47.9322|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 256752 left leg 1 at 4/3/2023 4:11:47 PM 
+2023-04-03 16:11:47.9322|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 256752 entered leg 2 at 4/3/2023 4:11:47 PM 
+2023-04-03 16:11:52.9405|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 256752 left leg 2 at 4/3/2023 4:11:52 PM 
+2023-04-03 16:11:52.9405|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 256752 entered leg 3 at 4/3/2023 4:11:52 PM 
+2023-04-03 16:11:54.9622|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 874558 made first contact with the Airport at 4/3/2023 4:11:54 PM 
+2023-04-03 16:11:54.9812|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 874558 sucssesfully registered at the airport at 4/3/2023 4:11:54 PM 
+2023-04-03 16:11:54.9812|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 874558 entered leg 1 at 4/3/2023 4:11:54 PM 
+2023-04-03 16:11:57.9662|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 256752 left leg 3 at 4/3/2023 4:11:57 PM 
+2023-04-03 16:11:57.9662|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 256752 entered leg 4 at 4/3/2023 4:11:57 PM 
+2023-04-03 16:11:59.9837|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 874558 left leg 1 at 4/3/2023 4:11:59 PM 
+2023-04-03 16:11:59.9837|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 874558 entered leg 2 at 4/3/2023 4:11:59 PM 
+2023-04-03 16:12:04.9995|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 874558 left leg 2 at 4/3/2023 4:12:04 PM 
+2023-04-03 16:12:04.9995|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 874558 entered leg 3 at 4/3/2023 4:12:05 PM 
+2023-04-03 16:12:12.9831|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 256752 left leg 4 at 4/3/2023 4:12:12 PM 
+2023-04-03 16:12:12.9831|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 256752 entered leg 5 at 4/3/2023 4:12:12 PM 
+2023-04-03 16:12:12.9967|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 874558 left leg 3 at 4/3/2023 4:12:12 PM 
+2023-04-03 16:12:12.9967|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 874558 entered leg 4 at 4/3/2023 4:12:12 PM 
+2023-04-03 16:12:23.0034|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 256752 left leg 5 at 4/3/2023 4:12:23 PM 
+2023-04-03 16:12:23.0034|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 256752 entered leg 6 at 4/3/2023 4:12:23 PM 
+2023-04-03 16:12:23.0445|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 123850 made first contact with the Airport at 4/3/2023 4:12:22 PM 
+2023-04-03 16:12:23.0797|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 123850 sucssesfully registered at the airport at 4/3/2023 4:12:23 PM 
+2023-04-03 16:12:23.0797|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 123850 entered leg 7 at 4/3/2023 4:12:23 PM 
+2023-04-03 16:12:28.0078|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 874558 left leg 4 at 4/3/2023 4:12:28 PM 
+2023-04-03 16:12:28.0078|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 874558 entered leg 5 at 4/3/2023 4:12:28 PM 
+2023-04-03 16:12:43.0205|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 256752 left leg 6 at 4/3/2023 4:12:43 PM 
+2023-04-03 16:12:43.0205|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 874558 left leg 5 at 4/3/2023 4:12:43 PM 
+2023-04-03 16:12:43.0205|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 874558 entered leg 6 at 4/3/2023 4:12:43 PM 
+2023-04-03 16:12:43.0817|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 123850 left leg 7 at 4/3/2023 4:12:43 PM 
+2023-04-03 16:12:43.0817|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 123850 entered leg 8 at 4/3/2023 4:12:43 PM 
+2023-04-03 16:12:43.5095|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 905530 made first contact with the Airport at 4/3/2023 4:12:43 PM 
+2023-04-03 16:12:43.5095|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 905530 sucssesfully registered at the airport at 4/3/2023 4:12:43 PM 
+2023-04-03 16:12:43.5095|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 905530 entered leg 1 at 4/3/2023 4:12:43 PM 
+2023-04-03 16:12:48.5178|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 905530 left leg 1 at 4/3/2023 4:12:48 PM 
+2023-04-03 16:12:48.5178|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 905530 entered leg 2 at 4/3/2023 4:12:48 PM 
+2023-04-03 16:12:53.1000|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 123850 left leg 8 at 4/3/2023 4:12:53 PM 
+2023-04-03 16:12:53.1000|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 123850 entered leg 4 at 4/3/2023 4:12:53 PM 
+2023-04-03 16:12:53.5371|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 905530 left leg 2 at 4/3/2023 4:12:53 PM 
+2023-04-03 16:12:53.5371|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 905530 entered leg 3 at 4/3/2023 4:12:53 PM 
+2023-04-03 16:13:03.0335|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 874558 left leg 6 at 4/3/2023 4:13:03 PM 
+2023-04-03 16:13:08.1089|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 123850 left leg 4 at 4/3/2023 4:13:08 PM 
+2023-04-03 16:13:08.1089|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 905530 left leg 3 at 4/3/2023 4:13:08 PM 
+2023-04-03 16:13:08.1089|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 905530 entered leg 4 at 4/3/2023 4:13:08 PM 
+2023-04-03 16:13:09.4199|0|INFO|AirportSimServer.Controllers.ActivityController|Leg Status Requested ! 
+2023-04-03 16:13:11.5373|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 91740 made first contact with the Airport at 4/3/2023 4:13:11 PM 
+2023-04-03 16:13:11.5431|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 91740 sucssesfully registered at the airport at 4/3/2023 4:13:11 PM 
+2023-04-03 16:13:11.5431|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 91740 entered leg 6 at 4/3/2023 4:13:11 PM 
+2023-04-03 16:13:13.3862|0|INFO|AirportSimServer.Controllers.FlightsController|Server got a request for flights at Monday, April 3, 2023 4:13:13 PM 
+2023-04-03 16:13:23.1254|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 905530 left leg 4 at 4/3/2023 4:13:23 PM 
+2023-04-03 16:13:23.1254|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 905530 entered leg 5 at 4/3/2023 4:13:23 PM 
+2023-04-03 16:13:31.5721|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 91740 left leg 6 at 4/3/2023 4:13:31 PM 
+2023-04-03 16:13:31.5721|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 91740 entered leg 8 at 4/3/2023 4:13:31 PM 
+2023-04-03 16:13:33.1407|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 905530 left leg 5 at 4/3/2023 4:13:33 PM 
+2023-04-03 16:13:33.1407|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 905530 entered leg 6 at 4/3/2023 4:13:33 PM 
+2023-04-03 16:13:33.3517|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 503676 made first contact with the Airport at 4/3/2023 4:13:33 PM 
+2023-04-03 16:13:33.3517|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 503676 sucssesfully registered at the airport at 4/3/2023 4:13:33 PM 
+2023-04-03 16:13:33.3517|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 503676 entered leg 1 at 4/3/2023 4:13:33 PM 
+2023-04-03 16:13:38.3710|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 503676 left leg 1 at 4/3/2023 4:13:38 PM 
+2023-04-03 16:13:38.3710|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 503676 entered leg 2 at 4/3/2023 4:13:38 PM 
+2023-04-03 16:13:41.5775|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 91740 left leg 8 at 4/3/2023 4:13:41 PM 
+2023-04-03 16:13:41.5775|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 91740 entered leg 4 at 4/3/2023 4:13:41 PM 
+2023-04-03 16:13:43.3897|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 503676 left leg 2 at 4/3/2023 4:13:43 PM 
+2023-04-03 16:13:43.3897|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 503676 entered leg 3 at 4/3/2023 4:13:43 PM 
+2023-04-03 16:13:53.1564|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 905530 left leg 6 at 4/3/2023 4:13:53 PM 
+2023-04-03 16:13:56.5828|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 91740 left leg 4 at 4/3/2023 4:13:56 PM 
+2023-04-03 16:13:56.5828|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 503676 left leg 3 at 4/3/2023 4:13:56 PM 
+2023-04-03 16:13:56.5828|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 503676 entered leg 4 at 4/3/2023 4:13:56 PM 
+2023-04-03 16:14:01.9010|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 55200 made first contact with the Airport at 4/3/2023 4:14:01 PM 
+2023-04-03 16:14:01.9010|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 55200 sucssesfully registered at the airport at 4/3/2023 4:14:01 PM 
+2023-04-03 16:14:01.9010|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 55200 entered leg 6 at 4/3/2023 4:14:01 PM 
+2023-04-03 16:14:11.5976|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 503676 left leg 4 at 4/3/2023 4:14:11 PM 
+2023-04-03 16:14:11.5976|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 503676 entered leg 5 at 4/3/2023 4:14:11 PM 
+2023-04-03 16:14:15.5460|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 18979 made first contact with the Airport at 4/3/2023 4:14:15 PM 
+2023-04-03 16:14:15.5654|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 18979 sucssesfully registered at the airport at 4/3/2023 4:14:15 PM 
+2023-04-03 16:14:15.5654|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 18979 entered leg 7 at 4/3/2023 4:14:15 PM 
+2023-04-03 16:14:16.9966|0|INFO|AirportSimServer.Controllers.FlightsController|Server got a request for flights at Monday, April 3, 2023 4:14:16 PM 
+2023-04-03 16:14:20.4759|0|INFO|AirportSimServer.Controllers.FlightsController|Server got a request for flights at Monday, April 3, 2023 4:14:20 PM 
+2023-04-03 16:14:21.3308|0|INFO|AirportSimServer.Controllers.ActivityController|Leg Status Requested ! 
+2023-04-03 16:14:21.9296|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 55200 left leg 6 at 4/3/2023 4:14:21 PM 
+2023-04-03 16:14:21.9296|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 55200 entered leg 8 at 4/3/2023 4:14:21 PM 
+2023-04-03 16:14:21.9296|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 503676 left leg 5 at 4/3/2023 4:14:21 PM 
+2023-04-03 16:14:21.9296|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 503676 entered leg 6 at 4/3/2023 4:14:21 PM 
+2023-04-03 16:14:31.9394|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 55200 left leg 8 at 4/3/2023 4:14:31 PM 
+2023-04-03 16:14:31.9394|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 55200 entered leg 4 at 4/3/2023 4:14:31 PM 
+2023-04-03 16:14:35.5719|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 18979 left leg 7 at 4/3/2023 4:14:35 PM 
+2023-04-03 16:14:35.5719|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 18979 entered leg 8 at 4/3/2023 4:14:35 PM 
+2023-04-03 16:14:39.3515|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 35220 made first contact with the Airport at 4/3/2023 4:14:39 PM 
+2023-04-03 16:14:39.3515|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 35220 sucssesfully registered at the airport at 4/3/2023 4:14:39 PM 
+2023-04-03 16:14:39.3515|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 35220 entered leg 1 at 4/3/2023 4:14:39 PM 
+2023-04-03 16:14:41.9624|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 503676 left leg 6 at 4/3/2023 4:14:41 PM 
+2023-04-03 16:14:44.3745|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 35220 left leg 1 at 4/3/2023 4:14:44 PM 
+2023-04-03 16:14:44.3745|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 35220 entered leg 2 at 4/3/2023 4:14:44 PM 
+2023-04-03 16:14:46.9498|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 55200 left leg 4 at 4/3/2023 4:14:46 PM 
+2023-04-03 16:14:46.9498|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 18979 left leg 8 at 4/3/2023 4:14:46 PM 
+2023-04-03 16:14:46.9498|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 18979 entered leg 4 at 4/3/2023 4:14:46 PM 
+2023-04-03 16:14:49.3919|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 35220 left leg 2 at 4/3/2023 4:14:49 PM 
+2023-04-03 16:14:49.3919|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 35220 entered leg 3 at 4/3/2023 4:14:49 PM 
+2023-04-03 16:14:57.9281|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 839460 made first contact with the Airport at 4/3/2023 4:14:57 PM 
+2023-04-03 16:14:57.9281|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 839460 sucssesfully registered at the airport at 4/3/2023 4:14:57 PM 
+2023-04-03 16:14:57.9281|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 839460 entered leg 6 at 4/3/2023 4:14:57 PM 
+2023-04-03 16:15:01.9681|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 18979 left leg 4 at 4/3/2023 4:15:01 PM 
+2023-04-03 16:15:01.9681|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 35220 left leg 3 at 4/3/2023 4:15:01 PM 
+2023-04-03 16:15:01.9681|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 35220 entered leg 4 at 4/3/2023 4:15:01 PM 
+2023-04-03 16:15:16.9787|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 35220 left leg 4 at 4/3/2023 4:15:16 PM 
+2023-04-03 16:15:16.9787|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 35220 entered leg 5 at 4/3/2023 4:15:16 PM 
+2023-04-03 16:15:17.9463|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 839460 left leg 6 at 4/3/2023 4:15:17 PM 
+2023-04-03 16:15:17.9463|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 839460 entered leg 8 at 4/3/2023 4:15:17 PM 
+2023-04-03 16:15:20.4507|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 314419 made first contact with the Airport at 4/3/2023 4:15:20 PM 
+2023-04-03 16:15:20.4644|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 314419 sucssesfully registered at the airport at 4/3/2023 4:15:20 PM 
+2023-04-03 16:15:20.4644|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 314419 entered leg 6 at 4/3/2023 4:15:20 PM 
+2023-04-03 16:15:26.9925|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 35220 left leg 5 at 4/3/2023 4:15:26 PM 
+2023-04-03 16:15:26.9925|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 35220 entered leg 7 at 4/3/2023 4:15:26 PM 
+2023-04-03 16:15:27.9623|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 839460 left leg 8 at 4/3/2023 4:15:27 PM 
+2023-04-03 16:15:27.9623|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 839460 entered leg 4 at 4/3/2023 4:15:27 PM 
+2023-04-03 16:15:36.6064|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 647487 made first contact with the Airport at 4/3/2023 4:15:36 PM 
+2023-04-03 16:15:36.6157|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 647487 sucssesfully registered at the airport at 4/3/2023 4:15:36 PM 
+2023-04-03 16:15:36.6157|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 647487 entered leg 1 at 4/3/2023 4:15:36 PM 
+2023-04-03 16:15:40.4799|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 314419 left leg 6 at 4/3/2023 4:15:40 PM 
+2023-04-03 16:15:40.4799|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 314419 entered leg 8 at 4/3/2023 4:15:40 PM 
+2023-04-03 16:15:41.6313|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 647487 left leg 1 at 4/3/2023 4:15:41 PM 
+2023-04-03 16:15:41.6313|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 647487 entered leg 2 at 4/3/2023 4:15:41 PM 
+2023-04-03 16:15:42.9816|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 839460 left leg 4 at 4/3/2023 4:15:42 PM 
+2023-04-03 16:15:46.6432|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 647487 left leg 2 at 4/3/2023 4:15:46 PM 
+2023-04-03 16:15:46.6432|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 647487 entered leg 3 at 4/3/2023 4:15:46 PM 
+2023-04-03 16:15:47.0014|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 35220 left leg 7 at 4/3/2023 4:15:47 PM 
+2023-04-03 16:15:50.4939|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 314419 left leg 8 at 4/3/2023 4:15:50 PM 
+2023-04-03 16:15:50.4939|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 314419 entered leg 4 at 4/3/2023 4:15:50 PM 
+2023-04-03 16:16:05.3032|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 253520 made first contact with the Airport at 4/3/2023 4:16:05 PM 
+2023-04-03 16:16:05.3188|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 253520 sucssesfully registered at the airport at 4/3/2023 4:16:05 PM 
+2023-04-03 16:16:05.3188|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 253520 entered leg 1 at 4/3/2023 4:16:05 PM 
+2023-04-03 16:16:05.5061|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 314419 left leg 4 at 4/3/2023 4:16:05 PM 
+2023-04-03 16:16:05.5061|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 647487 left leg 3 at 4/3/2023 4:16:05 PM 
+2023-04-03 16:16:05.5061|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 647487 entered leg 4 at 4/3/2023 4:16:05 PM 
+2023-04-03 16:16:10.3342|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 253520 left leg 1 at 4/3/2023 4:16:10 PM 
+2023-04-03 16:16:10.3342|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 253520 entered leg 2 at 4/3/2023 4:16:10 PM 
+2023-04-03 16:16:15.3409|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 253520 left leg 2 at 4/3/2023 4:16:15 PM 
+2023-04-03 16:16:15.3409|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 253520 entered leg 3 at 4/3/2023 4:16:15 PM 
+2023-04-03 16:16:20.5169|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 647487 left leg 4 at 4/3/2023 4:16:20 PM 
+2023-04-03 16:16:20.5169|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 647487 entered leg 5 at 4/3/2023 4:16:20 PM 
+2023-04-03 16:16:20.5169|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 253520 left leg 3 at 4/3/2023 4:16:20 PM 
+2023-04-03 16:16:20.5169|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 253520 entered leg 4 at 4/3/2023 4:16:20 PM 
+2023-04-03 16:16:30.5215|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 647487 left leg 5 at 4/3/2023 4:16:30 PM 
+2023-04-03 16:16:30.5215|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 647487 entered leg 6 at 4/3/2023 4:16:30 PM 
+2023-04-03 16:16:32.2426|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 824927 made first contact with the Airport at 4/3/2023 4:16:32 PM 
+2023-04-03 16:16:32.2651|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 824927 sucssesfully registered at the airport at 4/3/2023 4:16:32 PM 
+2023-04-03 16:16:32.2651|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 824927 entered leg 7 at 4/3/2023 4:16:32 PM 
+2023-04-03 16:16:35.5486|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 253520 left leg 4 at 4/3/2023 4:16:35 PM 
+2023-04-03 16:16:35.5486|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 253520 entered leg 5 at 4/3/2023 4:16:35 PM 
+2023-04-03 16:16:47.0122|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 572130 made first contact with the Airport at 4/3/2023 4:16:47 PM 
+2023-04-03 16:16:47.0261|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 572130 sucssesfully registered at the airport at 4/3/2023 4:16:47 PM 
+2023-04-03 16:16:50.5340|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 647487 left leg 6 at 4/3/2023 4:16:50 PM 
+2023-04-03 16:16:50.5340|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 253520 left leg 5 at 4/3/2023 4:16:50 PM 
+2023-04-03 16:16:50.5340|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 253520 entered leg 6 at 4/3/2023 4:16:50 PM 
+2023-04-03 16:16:52.2808|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 824927 left leg 7 at 4/3/2023 4:16:52 PM 
+2023-04-03 16:16:52.2808|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 824927 entered leg 8 at 4/3/2023 4:16:52 PM 
+2023-04-03 16:16:52.2808|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 572130 entered leg 7 at 4/3/2023 4:16:52 PM 
+2023-04-03 16:17:02.3007|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 824927 left leg 8 at 4/3/2023 4:17:02 PM 
+2023-04-03 16:17:02.3020|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 824927 entered leg 4 at 4/3/2023 4:17:02 PM 
+2023-04-03 16:17:09.8489|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 964610 made first contact with the Airport at 4/3/2023 4:17:09 PM 
+2023-04-03 16:17:09.8713|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 964610 sucssesfully registered at the airport at 4/3/2023 4:17:09 PM 
+2023-04-03 16:17:09.8713|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 964610 entered leg 1 at 4/3/2023 4:17:09 PM 
+2023-04-03 16:17:10.5636|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 253520 left leg 6 at 4/3/2023 4:17:10 PM 
+2023-04-03 16:17:12.3062|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 572130 left leg 7 at 4/3/2023 4:17:12 PM 
+2023-04-03 16:17:12.3062|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 572130 entered leg 8 at 4/3/2023 4:17:12 PM 
+2023-04-03 16:17:14.8948|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 964610 left leg 1 at 4/3/2023 4:17:14 PM 
+2023-04-03 16:17:14.8962|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 964610 entered leg 2 at 4/3/2023 4:17:14 PM 
+2023-04-03 16:17:17.3130|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 824927 left leg 4 at 4/3/2023 4:17:17 PM 
+2023-04-03 16:17:19.9060|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 964610 left leg 2 at 4/3/2023 4:17:19 PM 
+2023-04-03 16:17:19.9060|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 964610 entered leg 3 at 4/3/2023 4:17:19 PM 
+2023-04-03 16:17:22.3251|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 572130 left leg 8 at 4/3/2023 4:17:22 PM 
+2023-04-03 16:17:22.3251|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 572130 entered leg 4 at 4/3/2023 4:17:22 PM 
+2023-04-03 16:17:37.3427|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 572130 left leg 4 at 4/3/2023 4:17:37 PM 
+2023-04-03 16:17:37.3427|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 964610 left leg 3 at 4/3/2023 4:17:37 PM 
+2023-04-03 16:17:37.3427|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 964610 entered leg 4 at 4/3/2023 4:17:37 PM 
+2023-04-03 16:17:37.5455|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 448224 made first contact with the Airport at 4/3/2023 4:17:37 PM 
+2023-04-03 16:17:37.5455|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 448224 sucssesfully registered at the airport at 4/3/2023 4:17:37 PM 
+2023-04-03 16:17:37.5455|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 448224 entered leg 1 at 4/3/2023 4:17:37 PM 
+2023-04-03 16:17:42.5608|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 448224 left leg 1 at 4/3/2023 4:17:42 PM 
+2023-04-03 16:17:42.5608|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 448224 entered leg 2 at 4/3/2023 4:17:42 PM 
+2023-04-03 16:17:47.5758|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 448224 left leg 2 at 4/3/2023 4:17:47 PM 
+2023-04-03 16:17:47.5758|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 448224 entered leg 3 at 4/3/2023 4:17:47 PM 
+2023-04-03 16:17:52.3557|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 964610 left leg 4 at 4/3/2023 4:17:52 PM 
+2023-04-03 16:17:52.3557|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 964610 entered leg 5 at 4/3/2023 4:17:52 PM 
+2023-04-03 16:17:52.5901|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 448224 left leg 3 at 4/3/2023 4:17:52 PM 
+2023-04-03 16:17:52.5901|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 448224 entered leg 4 at 4/3/2023 4:17:52 PM 
+2023-04-03 16:17:53.2797|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 949565 made first contact with the Airport at 4/3/2023 4:17:53 PM 
+2023-04-03 16:17:53.2937|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 949565 sucssesfully registered at the airport at 4/3/2023 4:17:53 PM 
+2023-04-03 16:17:53.2937|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 949565 entered leg 1 at 4/3/2023 4:17:53 PM 
+2023-04-03 16:17:58.3013|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 949565 left leg 1 at 4/3/2023 4:17:58 PM 
+2023-04-03 16:17:58.3013|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 949565 entered leg 2 at 4/3/2023 4:17:58 PM 
+2023-04-03 16:18:02.3625|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 964610 left leg 5 at 4/3/2023 4:18:02 PM 
+2023-04-03 16:18:02.3625|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 964610 entered leg 6 at 4/3/2023 4:18:02 PM 
+2023-04-03 16:18:03.3270|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 949565 left leg 2 at 4/3/2023 4:18:03 PM 
+2023-04-03 16:18:03.3270|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 949565 entered leg 3 at 4/3/2023 4:18:03 PM 
+2023-04-03 16:18:05.6226|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 502711 made first contact with the Airport at 4/3/2023 4:18:05 PM 
+2023-04-03 16:18:05.6460|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 502711 sucssesfully registered at the airport at 4/3/2023 4:18:05 PM 
+2023-04-03 16:18:05.6460|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 502711 entered leg 1 at 4/3/2023 4:18:05 PM 
+2023-04-03 16:18:07.6180|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 448224 left leg 4 at 4/3/2023 4:18:07 PM 
+2023-04-03 16:18:07.6180|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 448224 entered leg 5 at 4/3/2023 4:18:07 PM 
+2023-04-03 16:18:08.3524|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 949565 left leg 3 at 4/3/2023 4:18:08 PM 
+2023-04-03 16:18:08.3524|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 949565 entered leg 4 at 4/3/2023 4:18:08 PM 
+2023-04-03 16:18:10.6477|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 502711 left leg 1 at 4/3/2023 4:18:10 PM 
+2023-04-03 16:18:10.6477|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 502711 entered leg 2 at 4/3/2023 4:18:10 PM 
+2023-04-03 16:18:15.6698|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 502711 left leg 2 at 4/3/2023 4:18:15 PM 
+2023-04-03 16:18:15.6698|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 502711 entered leg 3 at 4/3/2023 4:18:15 PM 
+2023-04-03 16:18:17.6358|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 448224 left leg 5 at 4/3/2023 4:18:17 PM 
+2023-04-03 16:18:17.6358|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 448224 entered leg 7 at 4/3/2023 4:18:17 PM 
+2023-04-03 16:18:22.3790|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 964610 left leg 6 at 4/3/2023 4:18:22 PM 
+2023-04-03 16:18:23.3772|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 949565 left leg 4 at 4/3/2023 4:18:23 PM 
+2023-04-03 16:18:23.3772|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 949565 entered leg 5 at 4/3/2023 4:18:23 PM 
+2023-04-03 16:18:23.3772|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 502711 left leg 3 at 4/3/2023 4:18:23 PM 
+2023-04-03 16:18:23.3772|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 502711 entered leg 4 at 4/3/2023 4:18:23 PM 
+2023-04-03 16:18:30.0283|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 94060 made first contact with the Airport at 4/3/2023 4:18:30 PM 
+2023-04-03 16:18:30.0359|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 94060 sucssesfully registered at the airport at 4/3/2023 4:18:30 PM 
+2023-04-03 16:18:30.0359|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 94060 entered leg 6 at 4/3/2023 4:18:30 PM 
+2023-04-03 16:18:37.6470|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 448224 left leg 7 at 4/3/2023 4:18:37 PM 
+2023-04-03 16:18:37.6470|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 949565 left leg 5 at 4/3/2023 4:18:37 PM 
+2023-04-03 16:18:37.6470|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 949565 entered leg 7 at 4/3/2023 4:18:37 PM 
+2023-04-03 16:18:38.3954|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 502711 left leg 4 at 4/3/2023 4:18:38 PM 
+2023-04-03 16:18:38.3954|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 502711 entered leg 5 at 4/3/2023 4:18:38 PM 
+2023-04-03 16:18:44.3230|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 274172 made first contact with the Airport at 4/3/2023 4:18:44 PM 
+2023-04-03 16:18:44.3420|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 274172 sucssesfully registered at the airport at 4/3/2023 4:18:44 PM 
+2023-04-03 16:18:50.0476|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 94060 left leg 6 at 4/3/2023 4:18:50 PM 
+2023-04-03 16:18:50.0476|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 94060 entered leg 8 at 4/3/2023 4:18:50 PM 
+2023-04-03 16:18:50.0476|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 502711 left leg 5 at 4/3/2023 4:18:50 PM 
+2023-04-03 16:18:50.0476|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 502711 entered leg 6 at 4/3/2023 4:18:50 PM 
+2023-04-03 16:18:57.6558|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 949565 left leg 7 at 4/3/2023 4:18:57 PM 
+2023-04-03 16:18:57.6558|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 274172 entered leg 7 at 4/3/2023 4:18:57 PM 
+2023-04-03 16:19:00.0621|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 94060 left leg 8 at 4/3/2023 4:19:00 PM 
+2023-04-03 16:19:00.0621|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 94060 entered leg 4 at 4/3/2023 4:19:00 PM 
+2023-04-03 16:19:08.8475|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 788939 made first contact with the Airport at 4/3/2023 4:19:08 PM 
+2023-04-03 16:19:08.8475|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 788939 sucssesfully registered at the airport at 4/3/2023 4:19:08 PM 
+2023-04-03 16:19:08.8638|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 788939 entered leg 1 at 4/3/2023 4:19:08 PM 
+2023-04-03 16:19:10.0701|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 502711 left leg 6 at 4/3/2023 4:19:10 PM 
+2023-04-03 16:19:13.8763|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 788939 left leg 1 at 4/3/2023 4:19:13 PM 
+2023-04-03 16:19:13.8763|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 788939 entered leg 2 at 4/3/2023 4:19:13 PM 
+2023-04-03 16:19:15.0802|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 94060 left leg 4 at 4/3/2023 4:19:15 PM 
+2023-04-03 16:19:17.6704|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 274172 left leg 7 at 4/3/2023 4:19:17 PM 
+2023-04-03 16:19:17.6704|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 274172 entered leg 8 at 4/3/2023 4:19:17 PM 
+2023-04-03 16:19:18.9012|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 788939 left leg 2 at 4/3/2023 4:19:18 PM 
+2023-04-03 16:19:18.9012|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 788939 entered leg 3 at 4/3/2023 4:19:18 PM 
+2023-04-03 16:19:23.0542|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 628479 made first contact with the Airport at 4/3/2023 4:19:23 PM 
+2023-04-03 16:19:23.0677|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 628479 sucssesfully registered at the airport at 4/3/2023 4:19:23 PM 
+2023-04-03 16:19:23.0677|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 628479 entered leg 6 at 4/3/2023 4:19:23 PM 
+2023-04-03 16:19:23.9276|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 788939 left leg 3 at 4/3/2023 4:19:23 PM 
+2023-04-03 16:19:23.9276|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 788939 entered leg 4 at 4/3/2023 4:19:23 PM 
+2023-04-03 16:19:38.9324|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 788939 left leg 4 at 4/3/2023 4:19:38 PM 
+2023-04-03 16:19:38.9324|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 788939 entered leg 5 at 4/3/2023 4:19:38 PM 
+2023-04-03 16:19:38.9324|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 274172 left leg 8 at 4/3/2023 4:19:38 PM 
+2023-04-03 16:19:38.9324|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 274172 entered leg 4 at 4/3/2023 4:19:38 PM 
+2023-04-03 16:19:43.0805|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 628479 left leg 6 at 4/3/2023 4:19:43 PM 
+2023-04-03 16:19:43.0819|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 628479 entered leg 8 at 4/3/2023 4:19:43 PM 
+2023-04-03 16:19:48.9418|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 788939 left leg 5 at 4/3/2023 4:19:48 PM 
+2023-04-03 16:19:48.9418|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 788939 entered leg 6 at 4/3/2023 4:19:48 PM 
+2023-04-03 16:19:50.0189|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 454239 made first contact with the Airport at 4/3/2023 4:19:50 PM 
+2023-04-03 16:19:50.0189|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 454239 sucssesfully registered at the airport at 4/3/2023 4:19:50 PM 
+2023-04-03 16:19:50.0189|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 454239 entered leg 1 at 4/3/2023 4:19:50 PM 
+2023-04-03 16:19:53.9488|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 274172 left leg 4 at 4/3/2023 4:19:53 PM 
+2023-04-03 16:19:53.9488|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 628479 left leg 8 at 4/3/2023 4:19:53 PM 
+2023-04-03 16:19:53.9488|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 628479 entered leg 4 at 4/3/2023 4:19:53 PM 
+2023-04-03 16:19:55.0485|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 454239 left leg 1 at 4/3/2023 4:19:55 PM 
+2023-04-03 16:19:55.0485|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 454239 entered leg 2 at 4/3/2023 4:19:55 PM 
+2023-04-03 16:20:00.0648|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 454239 left leg 2 at 4/3/2023 4:20:00 PM 
+2023-04-03 16:20:00.0648|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 454239 entered leg 3 at 4/3/2023 4:20:00 PM 
+2023-04-03 16:20:08.9643|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 628479 left leg 4 at 4/3/2023 4:20:08 PM 
+2023-04-03 16:20:08.9643|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 788939 left leg 6 at 4/3/2023 4:20:08 PM 
+2023-04-03 16:20:08.9643|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 454239 left leg 3 at 4/3/2023 4:20:08 PM 
+2023-04-03 16:20:08.9643|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 454239 entered leg 4 at 4/3/2023 4:20:08 PM 
+2023-04-03 16:20:12.7544|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 362388 made first contact with the Airport at 4/3/2023 4:20:12 PM 
+2023-04-03 16:20:12.7695|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 362388 sucssesfully registered at the airport at 4/3/2023 4:20:12 PM 
+2023-04-03 16:20:12.7695|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 362388 entered leg 6 at 4/3/2023 4:20:12 PM 
+2023-04-03 16:20:23.9720|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 454239 left leg 4 at 4/3/2023 4:20:23 PM 
+2023-04-03 16:20:23.9720|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 454239 entered leg 5 at 4/3/2023 4:20:23 PM 
+2023-04-03 16:20:32.7761|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 362388 left leg 6 at 4/3/2023 4:20:32 PM 
+2023-04-03 16:20:32.7942|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 362388 entered leg 8 at 4/3/2023 4:20:32 PM 
+2023-04-03 16:20:33.9922|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 454239 left leg 5 at 4/3/2023 4:20:33 PM 
+2023-04-03 16:20:33.9922|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 454239 entered leg 6 at 4/3/2023 4:20:33 PM 
+2023-04-03 16:20:39.9907|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 146576 made first contact with the Airport at 4/3/2023 4:20:39 PM 
+2023-04-03 16:20:40.0114|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 146576 sucssesfully registered at the airport at 4/3/2023 4:20:40 PM 
+2023-04-03 16:20:40.0114|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 146576 entered leg 1 at 4/3/2023 4:20:40 PM 
+2023-04-03 16:20:42.8004|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 362388 left leg 8 at 4/3/2023 4:20:42 PM 
+2023-04-03 16:20:42.8004|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 362388 entered leg 4 at 4/3/2023 4:20:42 PM 
+2023-04-03 16:20:45.0303|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 146576 left leg 1 at 4/3/2023 4:20:45 PM 
+2023-04-03 16:20:45.0303|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 146576 entered leg 2 at 4/3/2023 4:20:45 PM 
+2023-04-03 16:20:50.0435|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 146576 left leg 2 at 4/3/2023 4:20:50 PM 
+2023-04-03 16:20:50.0435|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 146576 entered leg 3 at 4/3/2023 4:20:50 PM 
+2023-04-03 16:20:54.0025|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 454239 left leg 6 at 4/3/2023 4:20:54 PM 
+2023-04-03 16:20:57.5724|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 855951 made first contact with the Airport at 4/3/2023 4:20:57 PM 
+2023-04-03 16:20:57.5965|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 855951 sucssesfully registered at the airport at 4/3/2023 4:20:57 PM 
+2023-04-03 16:20:57.5966|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 855951 entered leg 6 at 4/3/2023 4:20:57 PM 
+2023-04-03 16:20:57.8183|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 362388 left leg 4 at 4/3/2023 4:20:57 PM 
+2023-04-03 16:20:57.8183|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 146576 left leg 3 at 4/3/2023 4:20:57 PM 
+2023-04-03 16:20:57.8183|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 146576 entered leg 4 at 4/3/2023 4:20:57 PM 
+2023-04-03 16:21:11.9408|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 642070 made first contact with the Airport at 4/3/2023 4:21:11 PM 
+2023-04-03 16:21:11.9408|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 642070 sucssesfully registered at the airport at 4/3/2023 4:21:11 PM 
+2023-04-03 16:21:11.9408|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 642070 entered leg 1 at 4/3/2023 4:21:11 PM 
+2023-04-03 16:21:12.8381|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 146576 left leg 4 at 4/3/2023 4:21:12 PM 
+2023-04-03 16:21:12.8381|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 146576 entered leg 5 at 4/3/2023 4:21:12 PM 
+2023-04-03 16:21:16.9524|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 642070 left leg 1 at 4/3/2023 4:21:16 PM 
+2023-04-03 16:21:16.9524|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 642070 entered leg 2 at 4/3/2023 4:21:16 PM 
+2023-04-03 16:21:17.6080|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 855951 left leg 6 at 4/3/2023 4:21:17 PM 
+2023-04-03 16:21:17.6080|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 855951 entered leg 8 at 4/3/2023 4:21:17 PM 
+2023-04-03 16:21:21.9687|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 642070 left leg 2 at 4/3/2023 4:21:21 PM 
+2023-04-03 16:21:21.9687|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 642070 entered leg 3 at 4/3/2023 4:21:21 PM 
+2023-04-03 16:21:22.8580|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 146576 left leg 5 at 4/3/2023 4:21:22 PM 
+2023-04-03 16:21:22.8580|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 146576 entered leg 6 at 4/3/2023 4:21:22 PM 
+2023-04-03 16:21:24.4813|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 954833 made first contact with the Airport at 4/3/2023 4:21:24 PM 
+2023-04-03 16:21:24.4927|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 954833 sucssesfully registered at the airport at 4/3/2023 4:21:24 PM 
+2023-04-03 16:21:24.4927|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 954833 entered leg 7 at 4/3/2023 4:21:24 PM 
+2023-04-03 16:21:27.0001|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 642070 left leg 3 at 4/3/2023 4:21:27 PM 
+2023-04-03 16:21:27.0001|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 642070 entered leg 4 at 4/3/2023 4:21:27 PM 
+2023-04-03 16:21:41.4441|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 634400 made first contact with the Airport at 4/3/2023 4:21:41 PM 
+2023-04-03 16:21:41.4589|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 634400 sucssesfully registered at the airport at 4/3/2023 4:21:41 PM 
+2023-04-03 16:21:41.4589|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 634400 entered leg 1 at 4/3/2023 4:21:41 PM 
+2023-04-03 16:21:42.0144|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 642070 left leg 4 at 4/3/2023 4:21:42 PM 
+2023-04-03 16:21:42.0144|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 642070 entered leg 5 at 4/3/2023 4:21:42 PM 
+2023-04-03 16:21:42.0144|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 855951 left leg 8 at 4/3/2023 4:21:42 PM 
+2023-04-03 16:21:42.0144|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 855951 entered leg 4 at 4/3/2023 4:21:42 PM 
+2023-04-03 16:21:42.8757|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 146576 left leg 6 at 4/3/2023 4:21:42 PM 
+2023-04-03 16:21:44.5079|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 954833 left leg 7 at 4/3/2023 4:21:44 PM 
+2023-04-03 16:21:44.5079|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 954833 entered leg 8 at 4/3/2023 4:21:44 PM 
+2023-04-03 16:21:46.4728|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 634400 left leg 1 at 4/3/2023 4:21:46 PM 
+2023-04-03 16:21:46.4728|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 634400 entered leg 2 at 4/3/2023 4:21:46 PM 
+2023-04-03 16:21:51.4834|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 634400 left leg 2 at 4/3/2023 4:21:51 PM 
+2023-04-03 16:21:51.4834|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 634400 entered leg 3 at 4/3/2023 4:21:51 PM 
+2023-04-03 16:21:52.0278|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 642070 left leg 5 at 4/3/2023 4:21:52 PM 
+2023-04-03 16:21:52.0278|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 642070 entered leg 6 at 4/3/2023 4:21:52 PM 
+2023-04-03 16:21:57.0376|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 855951 left leg 4 at 4/3/2023 4:21:57 PM 
+2023-04-03 16:21:57.0376|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 634400 left leg 3 at 4/3/2023 4:21:57 PM 
+2023-04-03 16:21:57.0376|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 634400 entered leg 4 at 4/3/2023 4:21:57 PM 
+2023-04-03 16:22:11.2544|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 328376 made first contact with the Airport at 4/3/2023 4:22:11 PM 
+2023-04-03 16:22:11.2544|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 328376 sucssesfully registered at the airport at 4/3/2023 4:22:11 PM 
+2023-04-03 16:22:11.2544|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 328376 entered leg 1 at 4/3/2023 4:22:11 PM 
+2023-04-03 16:22:12.0433|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 642070 left leg 6 at 4/3/2023 4:22:12 PM 
+2023-04-03 16:22:12.0595|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 634400 left leg 4 at 4/3/2023 4:22:12 PM 
+2023-04-03 16:22:12.0595|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 634400 entered leg 5 at 4/3/2023 4:22:12 PM 
+2023-04-03 16:22:12.0595|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 954833 left leg 8 at 4/3/2023 4:22:12 PM 
+2023-04-03 16:22:12.0595|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 954833 entered leg 4 at 4/3/2023 4:22:12 PM 
+2023-04-03 16:22:16.2733|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 328376 left leg 1 at 4/3/2023 4:22:16 PM 
+2023-04-03 16:22:16.2733|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 328376 entered leg 2 at 4/3/2023 4:22:16 PM 
+2023-04-03 16:22:21.2835|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 328376 left leg 2 at 4/3/2023 4:22:21 PM 
+2023-04-03 16:22:21.2835|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 328376 entered leg 3 at 4/3/2023 4:22:21 PM 
+2023-04-03 16:22:22.0794|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 634400 left leg 5 at 4/3/2023 4:22:22 PM 
+2023-04-03 16:22:22.0794|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 634400 entered leg 6 at 4/3/2023 4:22:22 PM 
+2023-04-03 16:22:27.0855|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 954833 left leg 4 at 4/3/2023 4:22:27 PM 
+2023-04-03 16:22:27.0855|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 328376 left leg 3 at 4/3/2023 4:22:27 PM 
+2023-04-03 16:22:27.0855|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 328376 entered leg 4 at 4/3/2023 4:22:27 PM 
+2023-04-03 16:22:30.2218|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 527930 made first contact with the Airport at 4/3/2023 4:22:30 PM 
+2023-04-03 16:22:30.2369|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 527930 sucssesfully registered at the airport at 4/3/2023 4:22:30 PM 
+2023-04-03 16:22:30.2369|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 527930 entered leg 7 at 4/3/2023 4:22:30 PM 
+2023-04-03 16:22:42.0908|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 634400 left leg 6 at 4/3/2023 4:22:42 PM 
+2023-04-03 16:22:42.0908|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 328376 left leg 4 at 4/3/2023 4:22:42 PM 
+2023-04-03 16:22:42.0965|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 328376 entered leg 5 at 4/3/2023 4:22:42 PM 
+2023-04-03 16:22:50.2499|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 527930 left leg 7 at 4/3/2023 4:22:50 PM 
+2023-04-03 16:22:50.2499|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 527930 entered leg 8 at 4/3/2023 4:22:50 PM 
+2023-04-03 16:22:52.1067|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 328376 left leg 5 at 4/3/2023 4:22:52 PM 
+2023-04-03 16:22:52.1067|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 328376 entered leg 6 at 4/3/2023 4:22:52 PM 
+2023-04-03 16:22:58.7361|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 614195 made first contact with the Airport at 4/3/2023 4:22:58 PM 
+2023-04-03 16:22:58.7361|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 614195 sucssesfully registered at the airport at 4/3/2023 4:22:58 PM 
+2023-04-03 16:22:58.7361|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 614195 entered leg 7 at 4/3/2023 4:22:58 PM 
+2023-04-03 16:23:00.2644|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 527930 left leg 8 at 4/3/2023 4:23:00 PM 
+2023-04-03 16:23:00.2644|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 527930 entered leg 4 at 4/3/2023 4:23:00 PM 
+2023-04-03 16:23:12.1135|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 328376 left leg 6 at 4/3/2023 4:23:12 PM 
+2023-04-03 16:23:15.2698|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 527930 left leg 4 at 4/3/2023 4:23:15 PM 
+2023-04-03 16:23:18.0017|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 715892 made first contact with the Airport at 4/3/2023 4:23:18 PM 
+2023-04-03 16:23:18.0017|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 715892 sucssesfully registered at the airport at 4/3/2023 4:23:18 PM 
+2023-04-03 16:23:18.0017|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 715892 entered leg 6 at 4/3/2023 4:23:18 PM 
+2023-04-03 16:23:18.7666|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 614195 left leg 7 at 4/3/2023 4:23:18 PM 
+2023-04-03 16:23:18.7666|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 614195 entered leg 8 at 4/3/2023 4:23:18 PM 
+2023-04-03 16:23:28.7860|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 614195 left leg 8 at 4/3/2023 4:23:28 PM 
+2023-04-03 16:23:28.7860|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 614195 entered leg 4 at 4/3/2023 4:23:28 PM 
+2023-04-03 16:23:35.5103|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 817701 made first contact with the Airport at 4/3/2023 4:23:35 PM 
+2023-04-03 16:23:35.5103|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 817701 sucssesfully registered at the airport at 4/3/2023 4:23:35 PM 
+2023-04-03 16:23:35.5103|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 817701 entered leg 1 at 4/3/2023 4:23:35 PM 
+2023-04-03 16:23:38.0476|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 715892 left leg 6 at 4/3/2023 4:23:38 PM 
+2023-04-03 16:23:38.0489|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 715892 entered leg 8 at 4/3/2023 4:23:38 PM 
+2023-04-03 16:23:40.5187|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 817701 left leg 1 at 4/3/2023 4:23:40 PM 
+2023-04-03 16:23:40.5187|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 817701 entered leg 2 at 4/3/2023 4:23:40 PM 
+2023-04-03 16:23:43.8015|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 614195 left leg 4 at 4/3/2023 4:23:43 PM 
+2023-04-03 16:23:45.5325|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 817701 left leg 2 at 4/3/2023 4:23:45 PM 
+2023-04-03 16:23:45.5325|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 817701 entered leg 3 at 4/3/2023 4:23:45 PM 
+2023-04-03 16:23:48.0628|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 715892 left leg 8 at 4/3/2023 4:23:48 PM 
+2023-04-03 16:23:48.0628|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 715892 entered leg 4 at 4/3/2023 4:23:48 PM 
+2023-04-03 16:23:56.4704|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 104704 made first contact with the Airport at 4/3/2023 4:23:56 PM 
+2023-04-03 16:23:56.4863|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 104704 sucssesfully registered at the airport at 4/3/2023 4:23:56 PM 
+2023-04-03 16:23:56.4863|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 104704 entered leg 6 at 4/3/2023 4:23:56 PM 
+2023-04-03 16:24:03.0724|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 715892 left leg 4 at 4/3/2023 4:24:03 PM 
+2023-04-03 16:24:03.0724|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 817701 left leg 3 at 4/3/2023 4:24:03 PM 
+2023-04-03 16:24:03.0724|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 817701 entered leg 4 at 4/3/2023 4:24:03 PM 
+2023-04-03 16:24:09.5522|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 97717 made first contact with the Airport at 4/3/2023 4:24:09 PM 
+2023-04-03 16:24:09.5661|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 97717 sucssesfully registered at the airport at 4/3/2023 4:24:09 PM 
+2023-04-03 16:24:09.5661|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 97717 entered leg 1 at 4/3/2023 4:24:09 PM 
+2023-04-03 16:24:14.5707|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 97717 left leg 1 at 4/3/2023 4:24:14 PM 
+2023-04-03 16:24:14.5707|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 97717 entered leg 2 at 4/3/2023 4:24:14 PM 
+2023-04-03 16:24:16.4973|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 104704 left leg 6 at 4/3/2023 4:24:16 PM 
+2023-04-03 16:24:16.4973|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 104704 entered leg 8 at 4/3/2023 4:24:16 PM 
+2023-04-03 16:24:18.0910|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 817701 left leg 4 at 4/3/2023 4:24:18 PM 
+2023-04-03 16:24:18.0910|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 817701 entered leg 5 at 4/3/2023 4:24:18 PM 
+2023-04-03 16:24:19.5893|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 97717 left leg 2 at 4/3/2023 4:24:19 PM 
+2023-04-03 16:24:19.5893|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 97717 entered leg 3 at 4/3/2023 4:24:19 PM 
+2023-04-03 16:24:21.7426|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 533506 made first contact with the Airport at 4/3/2023 4:24:21 PM 
+2023-04-03 16:24:21.7633|0|INFO|AirportSimServer.Controllers.FlightsController|Flight number 533506 sucssesfully registered at the airport at 4/3/2023 4:24:21 PM 
+2023-04-03 16:24:21.7633|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 533506 entered leg 6 at 4/3/2023 4:24:21 PM 
+2023-04-03 16:24:24.6133|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 97717 left leg 3 at 4/3/2023 4:24:24 PM 
+2023-04-03 16:24:24.6133|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 97717 entered leg 4 at 4/3/2023 4:24:24 PM 
+2023-04-03 16:24:28.0940|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 817701 left leg 5 at 4/3/2023 4:24:28 PM 
+2023-04-03 16:24:28.0940|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 817701 entered leg 7 at 4/3/2023 4:24:28 PM 
+2023-04-03 16:24:39.6247|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 97717 left leg 4 at 4/3/2023 4:24:39 PM 
+2023-04-03 16:24:39.6247|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 97717 entered leg 5 at 4/3/2023 4:24:39 PM 
+2023-04-03 16:24:39.6247|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 104704 left leg 8 at 4/3/2023 4:24:39 PM 
+2023-04-03 16:24:39.6247|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 104704 entered leg 4 at 4/3/2023 4:24:39 PM 
+2023-04-03 16:24:41.7741|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 533506 left leg 6 at 4/3/2023 4:24:41 PM 
+2023-04-03 16:24:41.7741|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 533506 entered leg 8 at 4/3/2023 4:24:41 PM 
+2023-04-03 16:24:48.1180|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 817701 left leg 7 at 4/3/2023 4:24:48 PM 
+2023-04-03 16:24:49.6451|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 97717 left leg 5 at 4/3/2023 4:24:49 PM 
+2023-04-03 16:24:49.6451|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 97717 entered leg 6 at 4/3/2023 4:24:49 PM 
+2023-04-03 16:24:52.7656|0|INFO|AirportSimServer.Controllers.ActivityController|Leg Status Requested ! 
+2023-04-03 16:24:54.6388|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 104704 left leg 4 at 4/3/2023 4:24:54 PM 
+2023-04-03 16:24:54.6388|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 533506 left leg 8 at 4/3/2023 4:24:54 PM 
+2023-04-03 16:24:54.6388|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 533506 entered leg 4 at 4/3/2023 4:24:54 PM 
+2023-04-03 16:25:09.6515|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 97717 left leg 6 at 4/3/2023 4:25:09 PM 
+2023-04-03 16:25:09.6515|0|INFO|ServerLogic.Models.TerminalLeg|Flight number 533506 left leg 4 at 4/3/2023 4:25:09 PM 
+2023-04-03 16:28:59.2951|0|INFO|AirportSimServer.Controllers.FlightsController|Server got a request for flights at Monday, April 3, 2023 4:28:59 PM 

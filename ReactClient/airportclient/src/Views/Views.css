@@ -1,0 +1,14 @@
+.View  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.View>.Line.Rows{
+    align-items: center;
+}
+
+.View>.Line.Rows>div{
+    margin-top: 1rem;
+}

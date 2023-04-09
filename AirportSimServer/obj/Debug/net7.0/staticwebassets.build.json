@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/NF/3xfPyMIZKBkkHvpnnpHxQ4igmS6/ZLCdLePMrLw=",
+  "Source": "AirportSimServer",
+  "BasePath": "_content/AirportSimServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
