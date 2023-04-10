@@ -6,70 +6,26 @@ using System;
 
 namespace ServerLogic.Models
 {
-    public class TerminalLeg :IEntity
+    public class TerminalLeg : IEntity
     {
         public int Id { get; set; }
         private int _legNumber;
-        public int LegNumber {get { return _legNumber;}}
+        public int LegNumber { get { return _legNumber; } }
 
         private bool _isOperating;
-        public bool IsOperating { get { return _isOperating;}}
+        public bool IsOperating { get { return _isOperating; } }
 
         private int _duration;
-        public int Duration { get { return _duration;}} 
+        public int Duration { get { return _duration; } }
         private Flight? _currentFlight;
-        public Flight CurrentFlight 
-        { 
-            get
-            {
-                return _currentFlight!;
-            }
-            internal set
-            {
-               lock(this)
-                {
-                    if (value == null)
-                    {
-                        throw new ArgumentNullException("flight cannot be null !!!");
-                    }
-                    if (_currentFlight != null)
-                    {
-                        throw new InvalidOperationException($"flight Transfer to occupied Leg (no. {_legNumber})  !!!");
-                    }
 
-                    _currentFlight = value;
-                    OnEntering(_currentFlight);
-                    Task.Run(() =>
-                    {
-                        DoTerminalStuff();
-                        var nextLegs = getNextLegs(value);
-                        if (nextLegs != null)
-                        {
-                            if (nextLegs.Count == 0)
-                            {
-                                TransferFlight();
+        private List<TerminalLeg>? _nextLegsDeparting;
+        private List<TerminalLeg>? _nextLegsArriving;
+        internal event Action<TerminalLeg>? OnEmptiedLeg;
 
-                            }
-                            foreach (var leg in nextLegs)
-                            {
-                                lock (leg)
-                                {
-                                    if (leg.CurrentFlight == null && _currentFlight!=null)
-                                    {
-                                        TransferFlight(leg);
-                                        break;
-                                    }
-                                }
-                            }
-                        }
-                    });
-                }
-            }
-        }
-
-        private ILogger<TerminalLeg> _logger;
-        private IFlightLogCreator _flightLogCreator;
-        private ITerminalLegHub _hub;
+        private readonly ILogger<TerminalLeg> _logger;
+        private readonly IFlightLogCreator _flightLogCreator;
+        private readonly ITerminalLegHub _hub;
 
         public TerminalLeg(int legNumber, int duration, IFlightLogCreator flightLogCreator, ITerminalLegHub myHub, ILogger<TerminalLeg> logger)
         {
@@ -83,27 +39,79 @@ namespace ServerLogic.Models
             _nextLegsArriving = new List<TerminalLeg>();
             _isOperating = false;
         }
+        public Flight CurrentFlight
+        {
+            get
+            {
+                return _currentFlight!;
+            }
+            internal set
+            {
+                lock (this)
+                {
+                    CheckValid(value);
+                    _currentFlight = value;
+                    OnEntering(_currentFlight);
+                    _ = HandleFlight(value);
+                }
+            }
+        }
 
-        private List<TerminalLeg>? _nextLegsDeparting;
-        private List<TerminalLeg>? _nextLegsArriving;
-        internal event Action<TerminalLeg>? _onEmptiedLeg;
+        private void CheckValid(Flight value)
+        {
+            if (value == null)
+            {
+                throw new ArgumentNullException("flight cannot be null !!!");
+            }
+            if (_currentFlight != null)
+            {
+                throw new InvalidOperationException($"flight Transfer to occupied Leg (no. {_legNumber})  !!!");
+            }
+        }
 
+        private Task HandleFlight(Flight value)
+        {
+            return Task.Run(() =>
+            {
+                DoTerminalStuff();
+                SearchForNextLeg(value);
+            });
+        }
 
+        private void SearchForNextLeg(Flight value)
+        {
+            var nextLegs = GetNextLegs(value);
+            if (nextLegs.Count == 0)
+            {
+                TransferFlight();
+            }
+            foreach (var leg in nextLegs)
+            {
+                lock (leg)
+                {
+                    if (leg.CurrentFlight == null && _currentFlight != null)
+                    {
+                        TransferFlight(leg);
+                        break;
+                    }
+                }
+            }
+        }
         internal void AddLegToArriving(TerminalLeg leg)
         {
             _nextLegsArriving!.Add(leg);
-            leg._onEmptiedLeg += MoveToNextTerminal;
+            leg.OnEmptiedLeg += MoveToNextLeg;
         }
 
         internal void AddLegToDeparting(TerminalLeg leg)
         {
             _nextLegsDeparting!.Add(leg);
-            leg._onEmptiedLeg += MoveToNextTerminal;
+            leg.OnEmptiedLeg += MoveToNextLeg;
         }
 
-        private void DoTerminalStuff() 
+        private void DoTerminalStuff()
         {
-            lock(this)
+            lock (this)
             {
                 _isOperating = true;
             }
@@ -111,54 +119,44 @@ namespace ServerLogic.Models
             lock (this)
             {
                 _isOperating = false;
-                _hub.SendPendingStatus(_legNumber);
             }
+            _hub.SendPendingStatus(_legNumber);
         }
 
-        private void MoveToNextTerminal(TerminalLeg freedUpLeg)
+        private void MoveToNextLeg(TerminalLeg freedUpLeg)
         {
             lock (freedUpLeg)
             {
-                if (_currentFlight == null || _isOperating || freedUpLeg.CurrentFlight != null)
+                if (_currentFlight != null && !_isOperating && freedUpLeg.CurrentFlight == null && IsRightLeg(freedUpLeg))
                 {
-                    return;
-                }
-                if (IsRightTerminal(freedUpLeg))
-                {
-
                     TransferFlight(freedUpLeg);
-
                 }
             }
         }
 
-        private bool IsRightTerminal(TerminalLeg freedUpLeg) 
-        { 
-            if(_currentFlight.IsDeparting && _nextLegsDeparting.Contains(freedUpLeg))
+        private bool IsRightLeg(TerminalLeg freedUpLeg) => FlightAndLegDeparting(freedUpLeg) || FlightAndLegArriving(freedUpLeg);
+        private bool FlightAndLegDeparting(TerminalLeg freedUpLeg) => _currentFlight!.IsDeparting && _nextLegsDeparting!.Contains(freedUpLeg);
+        private bool FlightAndLegArriving(TerminalLeg freedUpLeg) => !_currentFlight!.IsDeparting && _nextLegsArriving!.Contains(freedUpLeg);
+
+        private void TransferFlight(TerminalLeg? freedUpLeg)
+        {
+            if (_currentFlight != null)
             {
-                return true;
+                OnLeaving(_currentFlight);
+                freedUpLeg!.CurrentFlight = CurrentFlight;
+                _currentFlight = null;
+                Task.Run(() => OnEmptiedLeg!(this));
             }
-            if (!_currentFlight.IsDeparting && _nextLegsArriving.Contains(freedUpLeg))
-            {
-                return true;
-            }
-            return false;
         }
 
-        private void TransferFlight(TerminalLeg? freedUpLeg = null)
+        private void TransferFlight()
         {
-            if(_currentFlight == null)
+            if (_currentFlight != null)
             {
-                return;
+                OnLeaving(_currentFlight);
+                _currentFlight = null;
+                Task.Run(() => OnEmptiedLeg!(this));
             }
-           OnLeaving(_currentFlight);
-            if (freedUpLeg != null)
-            {
-                freedUpLeg.CurrentFlight = CurrentFlight;
-            }
-
-            _currentFlight = null;
-            Task.Run(() => _onEmptiedLeg!(this));
         }
 
         private void OnLeaving(Flight currentFlight)
@@ -174,19 +172,6 @@ namespace ServerLogic.Models
             _hub.SendEnteringMessege(_legNumber, currentFlight);
         }
 
-        private List<TerminalLeg> getNextLegs(Flight flight)
-        {
-            List<TerminalLeg>? nextLegs = null;
-            if (flight!.IsDeparting)
-            {
-                nextLegs = _nextLegsDeparting!;
-            }
-            else
-            {
-                nextLegs = _nextLegsArriving!;
-            }
-            return nextLegs;
-        }
-
+        private List<TerminalLeg> GetNextLegs(Flight flight) => flight!.IsDeparting ? _nextLegsDeparting! : _nextLegsArriving!;
     }
 }

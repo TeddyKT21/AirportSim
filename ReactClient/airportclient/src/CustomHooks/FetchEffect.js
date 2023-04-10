@@ -20,7 +20,7 @@ export const UseFetch = (url, preProccess = (data) => data) => {
         
     }
     return [
-        (data),
+        data,
         isLoading,
         error
     ];

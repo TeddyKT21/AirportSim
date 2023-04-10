@@ -4,54 +4,29 @@ import { Rows } from "../UIkit/Layouts/Line/Line";
 import "./Views.css";
 import React, { useState } from "react";
 import { UseFetch } from "../CustomHooks/FetchEffect";
+import { OnSearch } from "./OnSearch";
 
 export const FlightLogs = (props) => {
-  let [logs,setLogs] = useState(null);
+  let [logs, setLogs] = useState(null);
   function preProccess(logs) {
     if (!logs) {
       return;
     }
     logs = logs.map((log) => {
-      let wordsContent = log.text.split(' ');
-      log.flight =Number(wordsContent[wordsContent.indexOf('number') + 1]);
-      log.leg = Number(wordsContent[wordsContent.indexOf('leg') + 1]);
+      let wordsContent = log.text.split(" ");
+      log.flight = Number(wordsContent[wordsContent.indexOf("number") + 1]);
+      log.leg = Number(wordsContent[wordsContent.indexOf("leg") + 1]);
       return log;
     });
     setLogs(logs);
     return logs;
   }
-  let [fullLogs, isLoading, errorMessege] = UseFetch(
-    "/Logs",
-    preProccess
-  );
+  let [fullLogs, isLoading, errorMessege] = UseFetch("/Logs", preProccess);
   function onSearch(minTime, maxTime, orderBy, text) {
-    let textFields = Object.keys(fullLogs[0]).filter(
-      (field) => typeof fullLogs[0][field] ==='string'
-    );
-    let searchWords = text.toLocaleLowerCase().trim().split(" ");
-    console.log(searchWords);
-    let filteredLogs = fullLogs.filter((log) => {
+    OnSearch(orderBy, text, fullLogs, setLogs, (log) => {
       let contactDateTime = new Date(log.createdAt);
-      if (contactDateTime > maxTime || contactDateTime < minTime) {
-        return false;
-      }
-      let logString = "";
-      textFields.forEach(field => {
-        logString += ` ${log[field].toLocaleLowerCase()}`;
-      });
-      let hasSearchWords = true;
-      searchWords.forEach(word => {
-        if(!logString.includes(word)){
-          hasSearchWords = false;
-        }
-      });
-      return hasSearchWords;
+      return contactDateTime <= maxTime && contactDateTime >= minTime;
     });
-    if(orderBy){
-      let sortField = orderBy.value;
-    filteredLogs.sort((l1,l2) =>(l1[sortField] > l2[sortField]) ? 1 : ((l2[sortField] > l1[sortField]) ? -1 : 0))
-    }
-    setLogs(filteredLogs);
   }
   let fields = [];
   if (logs && logs.length) {
@@ -65,8 +40,8 @@ export const FlightLogs = (props) => {
     "Flight Number",
     "Airport Section",
   ];
-  let options = TableHeaders.map(h =>{
-    return {value:fields[TableHeaders.indexOf(h)], label:h}
+  let options = TableHeaders.map((h) => {
+    return { value: fields[TableHeaders.indexOf(h)], label: h };
   }).filter((o) => o.label !== "Content");
   return (
     <div className="View">

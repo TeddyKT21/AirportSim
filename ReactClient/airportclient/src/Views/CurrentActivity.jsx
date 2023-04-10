@@ -17,31 +17,29 @@ export const CurrentActivity = (props) => {
     }
     Sections = Sections.map((s) => {
       s.id = s.legNumber;
-      if(s.currentFlight){
-        if(s.currentFlight.isDeparting){
+      if (s.currentFlight) {
+        if (s.currentFlight.isDeparting) {
           s.currentFlight.isDeparting = "departing";
-        }
-        else {
+        } else {
           s.currentFlight.isDeparting = "arriving";
         }
-        s = {...s,...s.currentFlight};
+        s = { ...s, ...s.currentFlight };
         if (s.isOperating) {
           s.Status = "operating";
         } else {
           s.Status = "pending";
         }
-      }
-      else{
+      } else {
         let flightFields = {
-          flightNumber : "-",
-          airLine : "-",
-          isDeparting : "-",
-          madeContactAt : "-",
-          numberOfPassengers : '-',
-          planeModel : '-',
-          Status : '-'
-        }
-        s = {...s,...flightFields};
+          flightNumber: "-",
+          airLine: "-",
+          isDeparting: "-",
+          madeContactAt: "-",
+          numberOfPassengers: "-",
+          planeModel: "-",
+          Status: "-",
+        };
+        s = { ...s, ...flightFields };
       }
       delete s.currentFlight;
       return s;
@@ -53,7 +51,7 @@ export const CurrentActivity = (props) => {
   [Sections, isLoading, errorMessege] = UseFetch("/Activity", preProccess);
   let fields = [];
   useEffect(() => {
-    if(!Sections){
+    if (!Sections) {
       return;
     }
     const connection = new signalR.HubConnectionBuilder()
@@ -68,11 +66,10 @@ export const CurrentActivity = (props) => {
       if (!Sections) {
         return;
       }
-      if(messege.flight){
-        if(messege.flight.isDeparting){
+      if (messege.flight) {
+        if (messege.flight.isDeparting) {
           messege.flight.isDeparting = "departing";
-        }
-        else {
+        } else {
           messege.flight.isDeparting = "arriving";
         }
       }
@@ -93,12 +90,12 @@ export const CurrentActivity = (props) => {
         updatedSection.airLine = "-";
         updatedSection.isDeparting = "-";
         updatedSection.madeContactAt = "-";
-        updatedSection.numberOfPassengers = '-';
-        updatedSection.planeModel = '-';
+        updatedSection.numberOfPassengers = "-";
+        updatedSection.planeModel = "-";
         updatedSection.Status = "-";
         updatedSection.isOperating = false;
       }
-      setSections({...Sections});
+      setSections({ ...Sections });
     });
     connection.on("SectionPendingUpdate", (legNumber) => {
       if (!Sections) {
@@ -107,7 +104,7 @@ export const CurrentActivity = (props) => {
       let updatedSection = Sections.find((s) => s.legNumber === legNumber);
       updatedSection.Status = "pending";
       updatedSection.isOperating = false;
-      setSections({...Sections});
+      setSections({ ...Sections });
     });
   }, [Sections && firstRender.current]);
 
@@ -122,7 +119,7 @@ export const CurrentActivity = (props) => {
         fieldName.toLocaleLowerCase() !== "isoperating"
     );
     if (!fields.find((s) => s === "Status")) {
-      fields.splice(1,0,"Status");
+      fields.splice(1, 0, "Status");
     }
   }
 
@@ -134,13 +131,17 @@ export const CurrentActivity = (props) => {
     "Time of contact",
     "Passenger Count",
     "Plane Model",
-    'Section Status'
+    "Section Status",
   ];
   return (
     <div className="View">
       <Rows>
         {!errorMessege && !isLoading && (
-          <Table fields={fields} dataMembers={Sections} headers={TableHeaders}/>
+          <Table
+            fields={fields}
+            dataMembers={Sections}
+            headers={TableHeaders}
+          />
         )}
         {isLoading && <h4>Data is loading...</h4>}
         {errorMessege && <h4 style={{ color: "red" }}>{errorMessege}</h4>}

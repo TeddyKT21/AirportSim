@@ -46,11 +46,11 @@ namespace ServerLogic.Models
             ConstructLegs();
             foreach (var leg in _recivingArrivalLegs)
             {
-                leg._onEmptiedLeg += StartArrivingProccess;
+                leg.OnEmptiedLeg += StartArrivingProccess;
             }
             foreach (var leg in _recivingDepartureLegs)
             {
-                leg._onEmptiedLeg += StartDepartingProccess;
+                leg.OnEmptiedLeg += StartDepartingProccess;
             }
         }
 

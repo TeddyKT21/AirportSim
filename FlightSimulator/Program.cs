@@ -6,7 +6,7 @@ namespace FlightSimulator
 {
     internal class Program
     {
-         static HttpClient client = new() { BaseAddress = new Uri("http://localhost:5001") };
+         static readonly HttpClient client = new() { BaseAddress = new Uri("http://localhost:5001") };
         static void Main(string[] args)
         {
             System.Timers.Timer timer = new System.Timers.Timer(5000);

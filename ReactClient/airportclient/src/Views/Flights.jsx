@@ -4,6 +4,7 @@ import { Rows } from "../UIkit/Layouts/Line/Line";
 import "./Views.css";
 import React, { useState } from "react";
 import { UseFetch } from "../CustomHooks/FetchEffect";
+import { OnSearch } from "./OnSearch";
 export const Flights = (props) => {
   let [flights, setFlights] = useState(null);
   function preProccess(flights) {
@@ -24,35 +25,10 @@ export const Flights = (props) => {
     preProccess
   );
   function onSearch(minTime, maxTime, orderBy, text) {
-    // console.log(minTime, maxTime, orderBy, text);
-
-    let textFields = Object.keys(Fullflights[0]).filter(
-      (field) => typeof Fullflights[0][field] ==='string'
-    );
-    let searchWords = text.toLocaleLowerCase().trim().split(" ");
-    let filteredFlights = Fullflights.filter((flight) => {
+    OnSearch(orderBy, text, Fullflights, setFlights, (flight) => {
       let contactDateTime = new Date(flight.madeContactAt);
-      if (contactDateTime > maxTime || contactDateTime < minTime) {
-        return false;
-      }
-      let flightString = "";
-      textFields.forEach(field => {
-        flightString += ` ${flight[field].toLocaleLowerCase()}`;
-      });
-      console.log(flightString);
-      let hasSearchWords = true;
-      searchWords.forEach(word => {
-        if(!flightString.includes(word)){
-          hasSearchWords = false;
-        }
-      });
-      return hasSearchWords;
+      return contactDateTime <= maxTime && contactDateTime >= minTime;
     });
-    if(orderBy){
-      let sortField = orderBy.value;
-    filteredFlights.sort((f1,f2) =>(f1[sortField] > f2[sortField]) ? 1 : ((f2[sortField] > f1[sortField]) ? -1 : 0))
-    }
-    setFlights(filteredFlights);
   }
   let fields = [];
   if (flights && flights.length) {
@@ -68,8 +44,8 @@ export const Flights = (props) => {
     "Departue/Arrival",
     "Time of contact",
   ];
-  let options = TableHeaders.map(h =>{
-    return {value:fields[TableHeaders.indexOf(h)], label:h}
+  let options = TableHeaders.map((h) => {
+    return { value: fields[TableHeaders.indexOf(h)], label: h };
   }).filter((o) => o.label !== "Departue/Arrival");
   return (
     <div className="View">
